@@ -203,24 +203,59 @@ margin-left: 50px;
 @media screen and (max-height:450px){
 .sidenav{padding-top: 15px;}
 .sidenav a{font-size: 18px;}
+body , html{
+    height: 100%;
+    width: 100%;
+}
+header {
+    display: block;
+}
+
 }
 
 
 
 
 
+/* Extra small devices (phones, 600px and down) */
 
-@media screen and  (max-width: 600px){
-
-    .contact-form {
-        flex-direction: column;
+@media only screen and (max-width: 600px) {
+    .banner,
+    .content {
+        display: block;
     }
-    .mssg textarea{
-        height: 80px;
-    }
-    .input-fields,
-    .mssg{
+    .banner div:first-child,
+    .banner div:last-child,
+    .content div:first-child,
+    .content div:last-child {
         width: 100%;
     }
-
+    .banner div:last-child,
+    .content-header button,
+    .content div:last-child img {
+        display: none;
+    }
+    .content div:last-child {
+        padding: 2%;
+    }
 }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
