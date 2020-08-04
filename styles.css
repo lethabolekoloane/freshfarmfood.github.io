@@ -57,7 +57,7 @@ list-style: none;
 display: inline-block;
 padding: 0px 20px;
 
-background: white;
+
 }
 .nav-area{
 float: right;
@@ -67,11 +67,15 @@ margin-top: 30px;
 
 .nav_links li a{
 transition: all 0.3s ease 0s;
-color: rgb(78, 221, 22);
+color: rgb(1, 252, 55);
 text-decoration: none;
 padding: 5px 20px;
 font-family: poppins;
-font-size: 18px;
+font-size: 28px;
+background: #686868;
+border-bottom: 20px;
+border-top: 20px;
+border-radius: 10px;
 }
 
 
