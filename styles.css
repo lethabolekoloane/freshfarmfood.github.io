@@ -210,7 +210,7 @@ margin-left: 50px;
 @media screen and (max-height:450px){
     .sidenav{padding-top: 15px;}
     .sidenav a{font-size: 18px;}
-    body , html{
+    body , html  ,#show,header{
         height: 100%;
         width: 100%;
     }
@@ -220,6 +220,29 @@ margin-left: 50px;
         text-size-adjust: 10px;
         padding: 2%;
     }
+    
+
+    header,
+    #show,
+    .footer .footer-content .footer-section,
+    .team,
+    .contact-form {
+        display: block;
+    }
+    
+    }
+    .nav-area {  flex-direction: column; }
+
+
+
+
+.nav-area {  
+    flex-direction: column; 
+    width: 100%;
+    }
+
+
+
     header li {
        background-color: none;
         color: none;
@@ -243,7 +266,7 @@ margin-left: 50px;
     @media only screen and (max-width: 600px) {
         .sidenav{padding-top: 15px;}
         .sidenav a{font-size: 18px;}
-        body , html{
+        body , html   ,#show,header{
             height: 100%;
             width: 100%;
         }
@@ -266,7 +289,7 @@ margin-left: 50px;
     @media only screen and (min-width: 600px) {
         .sidenav{padding-top: 15px;}
     .sidenav a{font-size: 18px;}
-    body , html{
+    body , html  ,#show,header{
         height: 100%;
         width: 100%;
     }
@@ -289,7 +312,7 @@ margin-left: 50px;
     @media only screen and (min-width: 768px) {
         .sidenav{padding-top: 15px;}
     .sidenav a{font-size: 18px;}
-    body , html{
+    body , html ,#show,header{
         height: 100%;
         width: 100%;
     }
@@ -312,7 +335,7 @@ margin-left: 50px;
     @media only screen and (min-width: 992px) {
         .sidenav{padding-top: 15px;}
     .sidenav a{font-size: 18px;}
-    body , html{
+    body , html ,#show,header {
         height: 100%;
         width: 100%;
     }
@@ -335,7 +358,7 @@ margin-left: 50px;
     @media only screen and (min-width: 1200px) {
         .sidenav{padding-top: 15px;}
     .sidenav a{font-size: 18px;}
-    body , html{
+    body , html  ,#show,header{
         height: 100%;
         width: 100%;
     }
