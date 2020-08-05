@@ -220,6 +220,29 @@ margin-left: 50px;
         text-size-adjust: 10px;
         padding: 2%;
     }
+    
+
+    header,
+    #show,
+    .footer .footer-content .footer-section,
+    .team,
+    .contact-form {
+        display: block;
+    }
+    
+    }
+    .nav-area {  flex-direction: column; }
+
+
+
+
+.nav-area {  
+    flex-direction: column; 
+    width: 100%;
+    }
+
+
+
     header li {
        background-color: none;
         color: none;
