@@ -211,7 +211,7 @@ margin-left: 50px;
     .sidenav{padding-top: 15px;}
     .sidenav a{font-size: 18px;}
     body , html  ,#show,header{
-        height: 100%;
+       
         width: 100%;
     }
     header {
@@ -230,7 +230,7 @@ margin-left: 50px;
         display: block;
     }
     
-    }
+    
     .nav-area {  flex-direction: column; }
 
 
@@ -260,117 +260,3 @@ margin-left: 50px;
     
     
     
-    
-    /* Extra small devices (phones, 600px and down) */
-    
-    @media only screen and (max-width: 600px) {
-        .sidenav{padding-top: 15px;}
-        .sidenav a{font-size: 18px;}
-        body , html   ,#show,header{
-            height: 100%;
-            width: 100%;
-        }
-        header {
-           
-            color: none;
-            text-size-adjust: 10px;
-            padding: 2%;
-        }
-        .footer, .footer-bottom{
-        
-            padding-top: 3px;
-            width: 100%;
-        }
-    }
-    
-    
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    
-    @media only screen and (min-width: 600px) {
-        .sidenav{padding-top: 15px;}
-    .sidenav a{font-size: 18px;}
-    body , html  ,#show,header{
-        height: 100%;
-        width: 100%;
-    }
-    header {
-       
-        color: none;
-        text-size-adjust: 10px;
-        padding: 2%;
-    }
-    .footer, .footer-bottom{
-    
-        padding-top: 3px;
-        width: 100%;
-    }
-    }
-    
-    
-    /* Medium devices (landscape tablets, 768px and up) */
-    
-    @media only screen and (min-width: 768px) {
-        .sidenav{padding-top: 15px;}
-    .sidenav a{font-size: 18px;}
-    body , html ,#show,header{
-        height: 100%;
-        width: 100%;
-    }
-    header {
-        
-        color: none;
-        text-size-adjust: 10px;
-        padding: 2%;
-    }
-    .footer, .footer-bottom{
-    
-        padding-top: 3px;
-        width: 100%;
-    }
-    }
-    
-    
-    /* Large devices (laptops/desktops, 992px and up) */
-    
-    @media only screen and (min-width: 992px) {
-        .sidenav{padding-top: 15px;}
-    .sidenav a{font-size: 18px;}
-    body , html ,#show,header {
-        height: 100%;
-        width: 100%;
-    }
-    header {
-       
-        color: none;
-        text-size-adjust: 10px;
-        padding: 2%;
-    }
-    .footer, .footer-bottom{
-    
-        padding-top: 3px;
-        width: 100%;
-    }
-    }
-    
-    
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    
-    @media only screen and (min-width: 1200px) {
-        .sidenav{padding-top: 15px;}
-    .sidenav a{font-size: 18px;}
-    body , html  ,#show,header{
-        height: 100%;
-        width: 100%;
-    }
-    header {
-        
-        color: none;
-        text-size-adjust: 10px;
-        padding: 2%;
-    }
-    .footer, .footer-bottom{
-    
-        padding-top: 3px;
-        width: 100%;
-    }
-    }
